@@ -6,5 +6,12 @@ function switchTabs(tab) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
+
+
+  folder = document.getElementsByClassName("folder");
+  for (i = 0; i < x.length; i++) {
+    folder[i].className = folder[i].className.replace(" w3-red", "");
+  }
   document.getElementById(tab).style.display = "block";
+  evt.currentTarget.className += " w3-red";
 }

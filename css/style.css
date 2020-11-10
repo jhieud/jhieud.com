@@ -6,6 +6,29 @@ h1, h2 {
   font-family: "Garamond";
 }
 
+h1, h2 > a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+}
+
+button:active {
+  border: 0;
+  background-color: #d5d5d5;
+}
+
+button:hover {
+  transition: background-color .4s ease;
+  background-color: #d5d5d5;
+}
+
+a:hover {
+  transition: color .5s ease;
+  color: #4c778c;
+}
+
 #page-title {
   margin: auto;
   padding: 2%;
@@ -39,7 +62,7 @@ h1, h2 {
 .project-unit {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .link-img {
