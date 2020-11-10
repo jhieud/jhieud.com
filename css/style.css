@@ -40,6 +40,7 @@ a {
   color: #397999;
 }
 
+/* website heading information */
 
 #page-title {
   margin: auto;
@@ -49,7 +50,7 @@ a {
 
 #contact {
   width: 70%;
-  margin:auto;
+  margin: auto;
   margin-bottom: 1%;
 }
 
@@ -79,6 +80,8 @@ a {
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 4%;
+  width: 90%;
+  margin: auto;
 }
 
 .folder-title {
@@ -92,6 +95,12 @@ a {
   text-transform: uppercase;
 }
 
+/*About tab styling*/
+#about {
+  width: 75%;
+  margin:auto;
+}
+
 /*Project tab styling*/
 #project-sections {
   display: flex;
@@ -101,6 +110,7 @@ a {
 .project-unit {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-bottom: 5%;
 }
 
@@ -115,6 +125,10 @@ a {
 
 .project-info {
   width: 100%;
+}
+
+.project-info > h2 {
+  font-size: 24px;
 }
 
 #portfolio-sections {
@@ -135,7 +149,6 @@ a {
 
 .banner-img {
   width: 350px;
-  /*height: 525px;*/
 }
 
 .portfolio-label {
