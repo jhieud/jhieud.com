@@ -101,6 +101,18 @@ a {
   margin:auto;
 }
 
+.about-sections > img {
+  width: 20%;
+  opacity: 1;
+}
+
+.about-sections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /*Project tab styling*/
 #project-sections {
   display: flex;
