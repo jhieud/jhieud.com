@@ -1,0 +1,71 @@
+* {
+  font-family: "Garamond";
+}
+
+h1, h2 {
+  font-family: "Garamond";
+}
+
+#page-title {
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}
+
+#nav-buttons {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#nav-bar {
+  padding: 0px;
+  background-color: #F0F0F0;
+  height: 5%;
+}
+
+.folder {
+  padding: 3%;
+}
+
+#project-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-unit {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+
+.link-img {
+  width: 400px;
+}
+/* All project imgs should have 943x785 ratio */
+.project-img {
+  width: 300px;
+}
+
+#portfolio-sections {
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sample-section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-img {
+  width: 405px;
+  height: 525px;
+}
