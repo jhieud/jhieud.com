@@ -40,6 +40,7 @@ a {
   color: #397999;
 }
 
+
 #page-title {
   margin: auto;
   padding-top: 2%;
@@ -47,12 +48,14 @@ a {
 }
 
 #contact {
+  width: 70%;
+  margin:auto;
   margin-bottom: 1%;
 }
 
 #contact > p {
   text-align: center;
-  margin: 1px;
+  margin: auto;
 }
 
 #nav-buttons {
