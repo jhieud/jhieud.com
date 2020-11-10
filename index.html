@@ -7,7 +7,10 @@
   </head>
   <body>
     <h1 id="page-title">Julia Hieu Minh Do</h1>
-
+    <div id="contact">
+      <p>Availability: January 2021 - August 2021</p>
+      <p>do.ju@northeastern.edu</p>
+    </div>
     <div id="nav-bar" class="flex-container">
       <div id="nav-buttons" class="flex-section">
         <div>
@@ -24,34 +27,37 @@
 
     <!-- shows the About section -->
     <div id="about" class="folder">
-      <div id="contact">
-        <h2>Availability: January 2021 - August 2021</h2>
-        <p>(781)654-6697</p>
-        <p>do.ju@northeastern.edu</p>
+      <div class="folder-title">
+        <p class="ftitle-text">About</p>
+      </div>
+      <div id="about">
+        <p>Hieu is a second-year at Northeastern University majoring in Computer Science with minors in Game Art and Interaction Design. They are a software engineer, artist, designer, and game developer.</p>
       </div>
     </div>
 
     <!-- shows the Projects section -->
     <div id="projects" class="folder" style="display:none">
+      <div class="folder-title">
+        <p class="ftitle-text">Coding Projects</p>
+      </div>
       <div id="project-sections">
-        Coding Projects
         <div id="generator" class="project-unit">
           <a href="https://jhieud.github.io/DnD-character-generator" class="link-img">
             <img src="./images/dnd_icon.png" alt="D&D 5e Character Generator" class="project-img">
           </a>
-          <div class="project_info">
+          <div class="project-info">
             <h2><a href="https://jhieud.github.io/DnD-character-generator" class="link-img">D&D 5e Character Creator</a></h2>
             <a href="https://github.com/jhieud/DnD-character-generator/">Github</a>
             <p>lorem ipsem dolor est description</p>
           </div>
         </div>
 
-        <div id="generator" class="project-unit">
+        <div id="dance" class="project-unit">
           <a href="https://jhieud.github.io/Lion-Dance-Adventure" class="link-img">
             <img src="./images/liondance_icon.png" alt="D&D 5e Character Generator" class="project-img">
           </a>
-          <div class="project_info">
-            <h2>Lion Dance Simulator</h2>
+          <div class="project-info">
+            <h2><a href="https://jhieud.github.io/Lion-Dance-Adventure">Lion Dance Simulator</a></h2>
             <a href="https://github.com/jhieud/Lion-Dance-Adventure/">Github</a>
             <p>lorem ipsem dolor est description</p>
           </div>
@@ -63,9 +69,9 @@
 
     <!-- shows the Portfolio section -->
     <div id="portfolio" class="folder" style="display:none">
-      <div>
-        Art portfolio
-        <a href="https://www.artstation.com/hieudo">Artstation</a>
+
+      <div class="folder-title">
+        <p class="ftitle-text">Art portfolio</p>
       </div>
 
       <div id="portfolio-sections" class="flex-container">
@@ -73,21 +79,21 @@
           <a href="https://www.artstation.com/hieudo">
             <img src="./images/lighthouse.png" alt="design" class="banner-img">
           </a>
-          <div>Design</div>
+          <p class="portfolio-label">Design</p>
         </div>
 
         <div id="illustration"  class="sample-section">
           <a href="https://www.artstation.com/hieudo">
             <img src="./images/lighthouse.png" alt="illustration" class="banner-img">
           </a>
-          <div>Illustration</div>
+          <p class="portfolio-label">Illustration</p>
         </div>
 
         <div id="game art" class="sample-section">
           <a href="https://www.artstation.com/hieudo">
             <img src="./images/lighthouse.png" alt="game art" class="banner-img">
           </a>
-          <div>Game Art</div>
+          <p class="portfolio-label">Game Art</p>
         </div>
       </div>
     </div>

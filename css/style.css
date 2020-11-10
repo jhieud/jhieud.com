@@ -6,17 +6,14 @@ h1, h2 {
   font-family: "Garamond";
 }
 
-h1, h2 > a {
+h2 > a {
+  color: black;
   text-decoration: none;
 }
 
 button {
+  transition: background-color .4s ease;
   border: 0;
-}
-
-button:active {
-  border: 0;
-  background-color: #d5d5d5;
 }
 
 button:hover {
@@ -24,20 +21,43 @@ button:hover {
   background-color: #d5d5d5;
 }
 
+img {
+  transition: opacity .5s ease;
+  opacity: 0.6;
+}
+
+img:hover {
+  transition: opacity .5s ease;
+  opacity: 1;
+}
+
 a:hover {
   transition: color .5s ease;
-  color: #4c778c;
+  color: #5c879c;
+}
+
+a {
+  color: #397999;
 }
 
 #page-title {
   margin: auto;
-  padding: 2%;
+  padding-top: 2%;
   text-align: center;
+}
+
+#contact {
+  margin-bottom: 1%;
+}
+
+#contact > p {
+  text-align: center;
+  margin: 1px;
 }
 
 #nav-buttons {
   margin: auto;
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -50,10 +70,26 @@ a:hover {
   height: 5%;
 }
 
+/*modifies overall tab elements*/
 .folder {
-  padding: 3%;
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
 }
 
+.folder-title {
+  padding-bottom: 1%;
+}
+
+.ftitle-text {
+  text-align: center;
+  font-size: 26px;
+  color: #666666;
+  text-transform: uppercase;
+}
+
+/*Project tab styling*/
 #project-sections {
   display: flex;
   flex-direction: column;
@@ -66,11 +102,16 @@ a:hover {
 }
 
 .link-img {
-  width: 400px;
+  margin-right: 3%;
+  width: 300px;
 }
 /* All project imgs should have 943x785 ratio */
 .project-img {
-  width: 300px;
+  width: 100%;
+}
+
+.project-info {
+  width: 100%;
 }
 
 #portfolio-sections {
@@ -78,6 +119,7 @@ a:hover {
   padding: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -89,6 +131,13 @@ a:hover {
 }
 
 .banner-img {
-  width: 405px;
-  height: 525px;
+  width: 350px;
+  /*height: 525px;*/
+}
+
+.portfolio-label {
+  font-size: 20px;
+  padding-top: 3%;
+  margin: auto;
+  align-items: center;
 }
