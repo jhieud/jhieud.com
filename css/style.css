@@ -82,6 +82,7 @@ a {
 
 /*modifies overall tab elements*/
 .folder {
+  animation: fadeIn ease 2s;
   padding-top: 2%;
   padding-left: 4%;
   padding-right: 4%;
@@ -141,7 +142,9 @@ a {
   margin-right: 3%;
   width: 300px;
 }
-/* All project imgs should have 943x785 ratio */
+/* All project imgs should have 943x785 ratio
+  may be helpful for cropping banner display: https://zomigi.com/blog/hiding-and-revealing-portions-of-images/
+*/
 .project-img {
   width: 100%;
 }
@@ -150,7 +153,7 @@ a {
   width: 100%;
 }
 
-.project-info > p {
+.project-info > h2 > a {
   font-size: 24px;
 }
 
@@ -179,4 +182,30 @@ a {
   padding-top: 3%;
   margin: auto;
   align-items: center;
+}
+
+/* fade effect from https://blog.hubspot.com/website/css-fade-in */
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
